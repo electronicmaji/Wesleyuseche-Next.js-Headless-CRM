@@ -1,0 +1,143 @@
+@media (min-width: 900px) {
+    .hero-column {
+        width: 90%;
+    }
+}
+
+
+
+.hero-group{
+    padding-bottom: 0px !important;
+}
+
+.hero-column {
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px !important;
+}
+
+.hero-column-left {
+    align-self: flex-end;
+}
+
+.hero-column-right {}
+
+.hero-profile-picture {
+    margin-bottom: 0px !important;
+}
+
+
+@media (max-width: 782px) {
+    .icon-column-top {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr !important;
+
+    }
+}
+
+.icon-column-top {
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 1fr;
+    display: grid !important;
+    column-gap: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-column {
+    background-color: #ffffff;
+    border-radius: 36px;
+    box-shadow: rgb(17 12 46 / 66%) 0px 5px 35px 0px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d2d2d2;
+    margin-bottom:  2rem;
+}
+
+p{
+    font-size: .8rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-family: serif;
+    text-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+
+h5 {
+    font-size: 1rem;
+}
+
+.purple-shadow {
+    box-shadow: 36px -8px 83px #7b7eeb54;
+}
+
+
+.blue-gradient-bg {
+    background-image: url("http://wesleyuseche.local/wp-content/uploads/2021/07/gradient-background-purpleberry.jpg");
+}
+
+.three-color-bg {
+    background-image: linear-gradient(145deg, #94B0C9 35%, #B0BDB7 35%, #B0BDB7 70%, #EDD5C6 70%, #EDD5C6 99%);
+}
+
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.ml-4 {
+    margin-left: 1rem !important;
+}
+
+.mt-4 {
+    margin-top: 1rem !important;
+}
+
+.mt-8 {
+    margin-top: 2rem !important;
+}
+
+.mt-12 {
+    margin-top: 3rem !important;
+}
+
+.mt-16 {
+    margin-top: 4rem !important;
+}
+
+img {
+    margin: inherit;
+}
+
+
+
+.wp-block-button__link {
+    border-radius: inherit !important;
+    padding: inherit !important;
+}
+
+.text-shadow-lg {
+    text-shadow: 0px 2px 4px #0000006b !important; ;
+}
+
+.wp-block-image .alignright {
+    margin-left: 0rem !important;
+}
+
+@media (min-width: 782px) {
+.wp-block-column:not(:first-child) {
+    margin-left: 1em !important; 
+    }
+}
+
+*, ::before, ::after {
+    box-sizing: content-box !important;
+}

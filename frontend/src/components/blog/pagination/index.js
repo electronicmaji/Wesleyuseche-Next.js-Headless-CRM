@@ -57,4 +57,5 @@ Pagination.defaultProps = {
 	postName: 'blog',
 };
 
+
 export default Pagination;

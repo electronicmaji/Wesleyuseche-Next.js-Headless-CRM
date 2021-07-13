@@ -6,7 +6,7 @@ import NewsletterSubscribe from './NewsletterSubscribe';
 
 const Footer = ( {footer, footerMenus} ) => {
 	return (
-		<footer className="bg-teal-500 p-6">
+		<footer className="bg-bittersweet-500 p-6">
 			<div className="flex flex-wrap -mx-1 overflow-hidden text-white">
 
 				{/*Widget One*/}

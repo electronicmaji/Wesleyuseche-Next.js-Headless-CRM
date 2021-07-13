@@ -1,0 +1,80 @@
+@media (min-width: 900px) {
+  .hero-column {
+    width: 90%;
+  }
+}
+
+.hero-group {
+  padding-bottom: 0px !important;
+}
+
+.hero-column {
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px !important;
+}
+
+.hero-column-left {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.hero-profile-picture {
+  margin-bottom: 0px !important;
+}
+
+.icon-column-top {
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 0rem;
+          column-gap: 0rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-column {
+  padding: 3rem 0rem 3rem 0rem;
+  background-color: #ffffff;
+  border-radius: 36px;
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-family: serif;
+  text-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+.purple-shadow {
+  -webkit-box-shadow: 36px -8px 83px #7b7eeb54;
+          box-shadow: 36px -8px 83px #7b7eeb54;
+}
+
+.blue-gradient-bg {
+  background-image: url("http://wesleyuseche.local/wp-content/uploads/2021/07/gradient-background-purpleberry.jpg");
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+img {
+  margin: inherit;
+}
+/*# sourceMappingURL=gutenberg.css.map */
